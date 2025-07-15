@@ -1,0 +1,4 @@
+{
+    "command": "./gradlew test",
+    "working_directory": "/home/kavia/workspace/code-generation/hearing-range-measurement-app-d3daf515/android_frontend"
+}

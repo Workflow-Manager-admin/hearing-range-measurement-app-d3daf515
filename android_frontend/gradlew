@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Add default JVM options here
+DEFAULT_JVM_OPTS="-Xmx64m -Xms64m"
+
+# Determine the project root directory
+SCRIPT_DIR=$(dirname "$0")
+APP_HOME=$(cd "$SCRIPT_DIR" >/dev/null && pwd)
+
+# Set up classpath
+CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
+
+# Execute Gradle
+exec java $DEFAULT_JVM_OPTS \
+  -Dorg.gradle.appname=gradlew \
+  -classpath "$CLASSPATH" \
+  org.gradle.wrapper.GradleWrapperMain "$@"
