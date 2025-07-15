@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">android_frontend</string>
+    <string name="onboarding_msg">Welcome! This app measures your hearing frequency range. Please use headphones for best results. Tap Start Test to begin.</string>
+    <string name="start_test">Start Test</string>
+    <string name="freq_prompt">Can you hear this tone? Frequency: %1$d Hz</string>
+    <string name="play_tone">Play Tone</string>
+    <string name="heard">Heard</string>
+    <string name="not_heard">Not Heard</string>
+    <string name="result_label">Your Hearing Frequency Range:</string>
+    <string name="result_template">You heard tones between <b>%1$d Hz</b> and <b>%2$d Hz</b>.</string>
+    <string name="result_none">No tones detected – try again with headphones and check your device volume.</string>
+    <string name="restart_test">Restart Test</string>
 </resources>

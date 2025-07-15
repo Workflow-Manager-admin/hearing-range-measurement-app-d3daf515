@@ -1,0 +1,15 @@
+<resources>
+    <item type="id" name="mainVerticalLayout"/>
+    <item type="id" name="textOnboarding"/>
+    <item type="id" name="btnStartTest"/>
+    <item type="id" name="testSection"/>
+    <item type="id" name="textFreq"/>
+    <item type="id" name="btnPlayTone"/>
+    <item type="id" name="responseBtns"/>
+    <item type="id" name="btnHeard"/>
+    <item type="id" name="btnNotHeard"/>
+    <item type="id" name="testProgressBar"/>
+    <item type="id" name="resultSection"/>
+    <item type="id" name="textResult"/>
+    <item type="id" name="btnRestart"/>
+</resources>
